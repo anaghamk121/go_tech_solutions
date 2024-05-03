@@ -6,14 +6,14 @@ class Page3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Page 3'),
+        title: const Text('Page 3'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
             Navigator.pop(context);
           },
-          child: Text('Go Back'),
+          child: const Text('Go Back'),
         ),
       ),
     );
